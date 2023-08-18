@@ -3,7 +3,7 @@
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2GVMGNE36"></script>
-  <script>
+  <script> 
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -13,9 +13,13 @@
   <title>WEB - HTML</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <script src="colors.js"> </script>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
   <div id="grid">
     <ol>
       <li><a href="1.html">HTML</a></li>
